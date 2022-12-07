@@ -13,5 +13,7 @@ Curation of the software used/developed at JRL for perception
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
 
-## Perceptual features for control (proposed Perception-Control bridge)
+## Perceptual features for control 
+Proposed Perception-Control bridge for tactile sensing and visual servoing.
+
 - [libPeR]() - 
