@@ -16,5 +16,6 @@ Curation of the software used/developed at JRL for perception
 ## Perceptual features for control 
 Proposed Perception-Control bridge for tactile sensing and visual servoing.
 
-- [DirectVisualServoing](https://github.com/jrl-umi3218/DirectVisualServoing) - with conventional or large aperture camera (Guillaume, Belinda)
+- [DirectVisualServoing](https://github.com/jrl-umi3218/DirectVisualServoing) - direct visual servoing with conventional or large aperture camera (Guillaume, Belinda)
+- [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) - same as above but within a ROS wrapping
 - [libPeR]() - 
