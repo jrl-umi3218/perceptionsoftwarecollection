@@ -4,7 +4,7 @@ Curation of the software used/developed at JRL for perception
 ## Human observation
 
 ## Object detection
-- [Descriptor-based]() - descriptor-based, within point cloud, if object known (Tsuru)
+- [Descriptor-based](https://github.com/TsuruMasato/OnlineObjectDetector) - 3D descriptor-based, within point cloud, if object shape known (Tsuru)
 
 ## Object tracking
 - [big_object_tracking](https://gite.lirmm.fr/chappellet/big_object_tracking) - with Depth camera (Kevin)
@@ -13,6 +13,10 @@ Curation of the software used/developed at JRL for perception
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
 - [OpenVSLAM-omni](https://github.com/GuicarMIS/openvslam-omni) - former OpenVSLAM extended to Barreto's model for panoramic cameras (Guillaume - private repository)
+
+## Mapping
+- [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
+- [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
 
 ## Perceptual features for control 
 Proposed Perception-Control bridge for tactile sensing and visual servoing.
