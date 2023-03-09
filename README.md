@@ -25,3 +25,8 @@ Proposed Perception-Control bridge for tactile sensing and visual servoing.
 - [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) - same as above but within a ROS wrapping (Guillaume, Mitsuharu)
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
 - [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public (minor) part of the above, mostly used in public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, Samuel, ...)
+- Spherical image manipulation
+  - [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi) - warps a dualfisheye image to an equirectangular image
+  - [equi2omni](https://github.com/PerceptionRobotique/equi2omni) - warps an equirectangular to an omnidirectional image
+  - [equi2equi](https://github.com/PerceptionRobotique/equi2equi) - warps an equirectangular image to a sphere, transform it, then map back to the equirectangular plane
+  - [dual2dual](https://github.com/PerceptionRobotique/dual2dual) - warps a dualfisheye image to a sphere, transform it, then map back as a dualfisheye image
