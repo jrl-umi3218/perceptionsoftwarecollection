@@ -12,7 +12,7 @@ Curation of the software used/developed at JRL for perception
 ## SLAM
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
-- [OpenVSLAM-omni](https://github.com/GuicarMIS/openvslam-omni) - former OpenVSLAM extended to Barreto's model for panoramic cameras (Guillaume - private repository)
+- [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM (Guillaume - private repository)
 
 ## Mapping
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
