@@ -14,6 +14,9 @@ Curation of the software used/developed at JRL for perception
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
 - [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM (Guillaume - private repository)
 
+## Camera tracking
+- [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
+
 ## Mapping
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
 - [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
@@ -24,7 +27,7 @@ Proposed Perception-Control bridge for tactile sensing and visual servoing.
 - [DirectVisualServoing](https://github.com/jrl-umi3218/DirectVisualServoing) - direct visual servoing with conventional (photometric visual servoing) or large aperture camera (defocus-based visual servoing) (Guillaume, Belinda)
 - [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) - same as above but within a ROS wrapping (Guillaume, Mitsuharu)
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
-- [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public (minor) part of the above, mostly used in public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, Samuel, ...)
+- [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, mostly used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, Samuel, ...)
 
 ## Miscellaneous 
 - Spherical image transformation tools:
