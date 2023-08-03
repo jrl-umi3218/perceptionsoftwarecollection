@@ -35,3 +35,5 @@ Proposed Perception-Control bridge for tactile sensing and visual servoing.
   - [equi2omni](https://github.com/PerceptionRobotique/equi2omni) - warps an equirectangular to an omnidirectional image
   - [equi2equi](https://github.com/PerceptionRobotique/equi2equi) - warps an equirectangular image to a sphere, transform it, then map back to the equirectangular plane
   - [dual2dual](https://github.com/PerceptionRobotique/dual2dual) - warps a dualfisheye image to a sphere, transform it, then map back as a dualfisheye image
+ 
+- Fiducial markers for panoramic vision: [ArUcOmni](https://github.com/GuicarMIS/ArUcOmni) - detection and pose estimation of ArUco marker observed by a camera obeying the unified central model
