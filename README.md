@@ -5,9 +5,11 @@ Curation of the software used/developed at JRL for perception
 
 ## Object detection
 - [Descriptor-based](https://github.com/TsuruMasato/OnlineObjectDetector) - 3D descriptor-based, within point cloud, if object shape known (Tsuru)
-
+- [2D-detection](https://github.com/isri-aist/2D-detection) - YOLOv8-based object detection and rough pose estimate (Virgile)
+- [6D-pose-estimation](https://github.com/isri-aist/6D-pose-estimation) - adaptation of [big_object_tracking](https://gite.lirmm.fr/chappellet/big_object_tracking) (see the Object tracking section) to robust pose estimation (Virgile)
+  
 ## Object tracking
-- [big_object_tracking](https://gite.lirmm.fr/chappellet/big_object_tracking) - with Depth camera (Kevin)
+- [big_object_tracking](https://gite.lirmm.fr/chappellet/big_object_tracking) - with Depth camera (Kevin, Virgile) 
 
 ## SLAM
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
@@ -22,12 +24,13 @@ Curation of the software used/developed at JRL for perception
 - [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
 
 ## Perceptual features for control 
-Proposed Perception-Control bridge for tactile sensing and visual servoing.
+Perception-Control bridge for tactile sensing and visual servoing:
 
 - [DirectVisualServoing](https://github.com/jrl-umi3218/DirectVisualServoing) - direct visual servoing with conventional (photometric visual servoing) or large aperture camera (defocus-based visual servoing) (Guillaume, Belinda)
 - [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) - same as above but within a ROS wrapping (Guillaume, Mitsuharu)
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
-- [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, mostly used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, Samuel, ...)
+- [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section), [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) (see below) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, ...)
+- [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) - robot (arm) control from camera visual feedback (Antoine Andre, Guillaume, ...)
 
 ## Miscellaneous 
 - Spherical image transformation tools:
