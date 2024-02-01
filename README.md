@@ -2,7 +2,8 @@
 Curation of the software used/developed at JRL for perception
 
 ## Human observation
-
+- [Body tracking split from Azure Kinect camera](https://github.com/GuicarMIS/Azure_Kinect_ROS_Driver/tree/splitBodyTrackingOption) - the body detection and tracking of the Azure Kinect camera split from the capture program to allow using it on a computer different than one to which the Azure Kinect is connected (Guillaume)
+  
 ## Object detection
 - [Descriptor-based](https://github.com/TsuruMasato/OnlineObjectDetector) - 3D descriptor-based, within point cloud, if object shape known (Tsuru)
 - [2D-detection](https://github.com/isri-aist/2D-detection) - YOLOv8-based object detection and rough pose estimate (Virgile)
