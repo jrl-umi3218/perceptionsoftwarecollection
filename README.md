@@ -32,6 +32,9 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
 - [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section), [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) (see below) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, ...)
 - [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) - robot (arm) control from camera visual feedback (Antoine Andre, Guillaume, ...)
+- [visual_gyroscope_plugin](https://github.com/isri-aist/visual_gyroscope_plugin) - mc_rtc visual gyroscope plugin (Thomas, Antoine)
+- [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
+- [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
 
 ## Miscellaneous 
 - Spherical image transformation tools:
@@ -45,3 +48,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - Fiducial markers for panoramic vision: [ArUcOmni](https://github.com/GuicarMIS/ArUcOmni) - detection and pose estimation of ArUco marker observed by a camera obeying the unified central model
 -  [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
+
+- mc_rtc tools:
+  - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager
+  - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
