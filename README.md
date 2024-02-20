@@ -19,6 +19,7 @@ Curation of the software used/developed at JRL for perception
 
 ## Camera tracking
 - [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
+- [ros_omni_gyro_gpu](https://github.com/isri-aist/ros_omni_gyro_gpu) - gpu acceleration of [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (Thomas)
 
 ## Mapping
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
@@ -50,5 +51,5 @@ Perception-Control bridge for tactile sensing and visual servoing:
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
 
 - mc_rtc tools:
-  - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager
+  - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
   - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
