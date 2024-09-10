@@ -37,6 +37,10 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
 - [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
 
+## Calibration
+- [rgbd2rgbalign](https://github.com/isri-aist/rgbd2rgbalign) - direct (grayscale) alignment to improve the rigid transformation from an RGBD camera 3D point cloud to an equirectangular one (Guillaume)
+- [rgbd2rgbdalign](https://github.com/isri-aist/rgbd2rgbdalign) - direct (Z values) alignment to calibrate a wide-angle depth camera from the depth map of an rgbd camera, matching the color image (Guillaume)
+
 ## Miscellaneous 
 - Spherical image transformation tools:
   - [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi) - warps a dualfisheye image to an equirectangular image
