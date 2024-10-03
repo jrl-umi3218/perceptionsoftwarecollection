@@ -53,7 +53,10 @@ Perception-Control bridge for tactile sensing and visual servoing:
 
 - Fiducial markers for panoramic vision: [ArUcOmni](https://github.com/GuicarMIS/ArUcOmni) - detection and pose estimation of ArUco marker observed by a camera obeying the unified central model
 -  [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
+-  [ids_driver_lib](https://github.com/isri-aist/ids_driver_lib) - C++ library for IDS camera
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
+-  [Azure Kinect IR Image Streamer](https://github.com/isri-aist/AKIRS) - Preprocess passive mode IR images.
+-  
 
 - mc_rtc tools:
   - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
