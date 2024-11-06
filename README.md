@@ -29,7 +29,7 @@ Curation of the software used/developed at JRL for perception
 Perception-Control bridge for tactile sensing and visual servoing:
 
 - [DirectVisualServoing](https://github.com/jrl-umi3218/DirectVisualServoing) - direct visual servoing with conventional (photometric visual servoing) or large aperture camera (defocus-based visual servoing) (Guillaume, Belinda)
-- [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) - same as above but within a ROS wrapping (Guillaume, Mitsuharu)
+- [ros_direct_visual_servoing](https://github.com/isri-aist/ros_direct_visual_servoing) - same as above but within a ROS wrapping; public version of [ros_dvs_bridge](https://github.com/jrl-umi3218/ros_dvs_bridge) (Guillaume, Antoine, Sinta, Mitsuharu)
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
 - [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section), [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) (see below) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, ...)
 - [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) - robot (arm) control from camera visual feedback (Antoine Andre, Guillaume, ...)
@@ -61,3 +61,5 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - mc_rtc tools:
   - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
   - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
+
+- vs camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
