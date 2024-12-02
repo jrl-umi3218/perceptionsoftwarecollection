@@ -15,7 +15,8 @@ Curation of the software used/developed at JRL for perception
 ## SLAM
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
-- [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM and to Equirectangular RGBD SLAM (Guillaume - private repository)
+- [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM (Guillaume - private repository)
+- [OpenVSLAM-equiRGBD](https://github.com/GuicarMIS/openvslam-omni/tree/stellaEquiRGBD) - OpenVSLAM-omni extended to Equirectangular RGBD SLAM (Guillaume - private repository)
 
 ## Camera tracking
 - [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
