@@ -15,7 +15,7 @@ Curation of the software used/developed at JRL for perception
 ## SLAM
 - [RTAB-Map](https://github.com/introlab/rtabmap) - with RGB-D camera (integrated by Kevin, Tsuru)
 - [StellaVSLAM](https://github.com/stella-cv/stella_vslam) - former OpenVSLAM
-- [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM (Guillaume - private repository)
+- [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM and to Equirectangular RGBD SLAM (Guillaume - private repository)
 
 ## Camera tracking
 - [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
@@ -36,6 +36,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [visual_gyroscope_plugin](https://github.com/isri-aist/visual_gyroscope_plugin) - mc_rtc visual gyroscope plugin (Thomas, Antoine)
 - [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
 - [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
+- [DHPGMVS](https://github.com/isri-aist/DHPGMVS) - Dual-Hemispherical Photometric Gaussian Mixture-based Visual Servoing extending [DHPVS](https://github.com/NathanCrombez/DHPVS) to the Photometric Gaussian Mixture feature thanks to [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) (Guillaume)
 
 ## Calibration
 - [rgbd2rgbalign](https://github.com/isri-aist/rgbd2rgbalign) - direct (grayscale) alignment to improve the rigid transformation from an RGBD camera 3D point cloud to an equirectangular one (Guillaume)
@@ -56,10 +57,11 @@ Perception-Control bridge for tactile sensing and visual servoing:
 -  [ids_driver_lib](https://github.com/isri-aist/ids_driver_lib) - C++ library for IDS camera
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
 -  [Azure Kinect IR Image Streamer](https://github.com/isri-aist/AKIRS) - Preprocess passive mode IR images.
--  
 
 - mc_rtc tools:
   - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
   - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
 
 - vs camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
+
+- [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
