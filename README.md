@@ -25,6 +25,7 @@ Curation of the software used/developed at JRL for perception
 ## Mapping
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
 - [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
+- [CALL-M_core](https://github.com/isri-aist/CALL-M_core) - perception-based navigation stack for the CALL-M mobile manipulator (Ocean, Rafa)
 
 ## Perceptual features for control 
 Perception-Control bridge for tactile sensing and visual servoing:
