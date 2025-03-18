@@ -51,6 +51,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
   - [equi2omni](https://github.com/PerceptionRobotique/equi2omni) - warps an equirectangular to an omnidirectional image
   - [equi2equi](https://github.com/PerceptionRobotique/equi2equi) - warps an equirectangular image to a sphere, transform it, then map back to the equirectangular plane
   - [dual2dual](https://github.com/PerceptionRobotique/dual2dual) - warps a dualfisheye image to a sphere, transform it, then map back as a dualfisheye image
+  - [persp2equi](https://github.com/PerceptionRobotique/equi2equi) - warps a perspective image to a sphere, transform it if necessary, then map back as an equirectangular image
  
 - Masking depth map: [ros_mask_depth_map](https://github.com/isri-aist/ros_mask_depth_map) - use a dynamic mask to mask the depth map of an RGBD camera captured on the fly
 
