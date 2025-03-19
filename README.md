@@ -43,7 +43,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 ## Calibration
 - [rgbd2rgbalign](https://github.com/isri-aist/rgbd2rgbalign) - direct (grayscale) alignment to improve the rigid transformation from an RGBD camera 3D point cloud to an equirectangular one (Guillaume)
 - [rgbd2rgbdalign](https://github.com/isri-aist/rgbd2rgbdalign) - direct (Z values) alignment to calibrate a wide-angle depth camera from the depth map of an rgbd camera, matching the color image (Guillaume)
-- [undistortCalibFromDistort](https://github.com/isri-aist/undistortCalibFromDistort) - compute undistortion parameters from distorsion ones (rational polynomial + tangential)
+- [undistortCalibFromDistort](https://github.com/isri-aist/undistortCalibFromDistort) - compute undistortion parameters from distorsion ones ( (1) rational polynomial + tangential; (2) OpenCV's Fisheye Model)
 
 ## Miscellaneous 
 - Spherical image transformation tools:
