@@ -68,3 +68,5 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - vs camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
 
 - [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
+
+- [FuseDPT](https://github.com/isri-aist/FuseDPT) - Dense depth prediction from RGB equirectangular image (Matheus, Nevrez)
