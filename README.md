@@ -21,6 +21,7 @@ Curation of the software used/developed at JRL for perception
 ## Camera tracking
 - [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
 - [ros_omni_gyro_gpu](https://github.com/isri-aist/ros_omni_gyro_gpu) - gpu acceleration of [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (Thomas)
+- [VisualAlignment](https://github.com/PerceptionRobotique/VisualAlignment) - direct alignment of RGB 3D point cloud to a 360-degree equirectangular image (Guillaume, Dorian)
 
 ## Mapping
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
@@ -41,6 +42,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [DHPGMVS](https://github.com/isri-aist/DHPGMVS) - Dual-Hemispherical Photometric Gaussian Mixture-based Visual Servoing extending [DHPVS](https://github.com/NathanCrombez/DHPVS) to the Photometric Gaussian Mixture feature thanks to [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) (Guillaume)
 
 ## Calibration
+- [MIXEDVISION](https://github.com/PerceptionRobotique/MIXEDVISION) - multiple cameras simultaneous intrinsic and extrinsic calibration using boards, capable of mixing camera types. Allows dual configurations too with multi-plane calibration targets (Guillaume)
 - [rgbd2rgbalign](https://github.com/isri-aist/rgbd2rgbalign) - direct (grayscale) alignment to improve the rigid transformation from an RGBD camera 3D point cloud to an equirectangular one (Guillaume)
 - [rgbd2rgbdalign](https://github.com/isri-aist/rgbd2rgbdalign) - direct (Z values) alignment to calibrate a wide-angle depth camera from the depth map of an rgbd camera, matching the color image (Guillaume)
 - [undistortCalibFromDistort](https://github.com/isri-aist/undistortCalibFromDistort) - compute undistortion parameters from distorsion ones ( (1) rational polynomial + tangential; (2) OpenCV's Fisheye Model)
