@@ -3,6 +3,7 @@ Curation of the software used/developed at JRL for perception
 
 ## Human observation
 - [Body tracking split from Azure Kinect camera](https://github.com/GuicarMIS/Azure_Kinect_ROS_Driver/tree/splitBodyTrackingOption) - the body detection and tracking of the Azure Kinect camera split from the capture program to allow using it on a computer different than one to which the Azure Kinect is connected (Guillaume)
+- [RGB-D Immersion for Unreal Engine 5.1 with Azure Kinect](https://github.com/isri-aist/rgbd-immersion) - Implementation of depth on a portion of a sphere to approximate reality and the FoV of the Azure Kinect camera (Raphaël)
   
 ## Object detection
 - [Descriptor-based](https://github.com/TsuruMasato/OnlineObjectDetector) - 3D descriptor-based, within point cloud, if object shape known (Tsuru)
