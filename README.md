@@ -3,6 +3,7 @@ Curation of the software used/developed at JRL for perception
 
 ## Human observation
 - [Body tracking split from Azure Kinect camera](https://github.com/GuicarMIS/Azure_Kinect_ROS_Driver/tree/splitBodyTrackingOption) - the body detection and tracking of the Azure Kinect camera split from the capture program to allow using it on a computer different than one to which the Azure Kinect is connected (Guillaume)
+- [Septime](https://github.com/isri-aist/septime) - Multiple Human Mesh Reconstruction from RGB images (either Miroki's head camera or a video)
   
 ## Object detection
 - [Descriptor-based](https://github.com/TsuruMasato/OnlineObjectDetector) - 3D descriptor-based, within point cloud, if object shape known (Tsuru)
@@ -27,6 +28,7 @@ Curation of the software used/developed at JRL for perception
 - [ExOctomap](https://github.com/isri-aist/ex_octomap) - create 3D voxel map, with semantic segmentation. (Tsuru)
 - [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
 - [CALL-M_core](https://github.com/isri-aist/CALL-M_core) - perception-based navigation stack for the CALL-M mobile manipulator (Ocean, Rafa)
+- [FuseDPT](https://github.com/isri-aist/FuseDPT) - Dense depth prediction from RGB equirectangular image (Matheus, Nevrez)
 
 ## Perceptual features for control 
 Perception-Control bridge for tactile sensing and visual servoing:
@@ -46,6 +48,15 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [rgbd2rgbalign](https://github.com/isri-aist/rgbd2rgbalign) - direct (grayscale) alignment to improve the rigid transformation from an RGBD camera 3D point cloud to an equirectangular one (Guillaume)
 - [rgbd2rgbdalign](https://github.com/isri-aist/rgbd2rgbdalign) - direct (Z values) alignment to calibrate a wide-angle depth camera from the depth map of an rgbd camera, matching the color image (Guillaume)
 - [undistortCalibFromDistort](https://github.com/isri-aist/undistortCalibFromDistort) - compute undistortion parameters from distorsion ones ( (1) rational polynomial + tangential; (2) OpenCV's Fisheye Model)
+
+## Simulation Tools
+- [Engine3D](https://github.com/PerceptionRobotique/Engine3D) - 3D rendering engine optimized for 3D point clouds (MIS lab)
+- [ros_Engine3D](https://github.com/PerceptionRobotique/ros_Engine3D) - A ROS2 node that wraps Engine3D (Guillaume)
+- [ros_freeflying](https://github.com/isri-aist/ros_freeflying) - A ROS2 node that updates the camera pose within a world from a twist vector (Guillaume)
+
+## Evaluation Tools
+- [mocap_sync](https://github.com/isri-aist/mocap_sync) - JRL's mocap withi ROS2 (Hugo, Caillot-san, Thomas)
+- VS camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
 
 ## Miscellaneous 
 - Spherical image transformation tools:
@@ -67,8 +78,4 @@ Perception-Control bridge for tactile sensing and visual servoing:
   - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
   - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
 
-- vs camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
-
 - [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
-
-- [FuseDPT](https://github.com/isri-aist/FuseDPT) - Dense depth prediction from RGB equirectangular image (Matheus, Nevrez)
