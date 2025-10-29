@@ -42,10 +42,21 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [libPeR](https://github.com/PerceptionRobotique/libPeR) - library of robotic (visual) perception direct features for various types of camera, for visual servoing and camera motion estimation (Guillaume, Antoine Andre, ... - private repository)
 - [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) - public part of the above, used for [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (see the Camera tracking Section), [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) (see below) and public repositories of spherical image format management, i.e. [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi), [equi2equi](https://github.com/PerceptionRobotique/equi2equi), ... (Guillaume, Antoine Andre, ...)
 - [VisualServoing](https://github.com/PerceptionRobotique/VisualServoing) - robot (arm) control from camera visual feedback (Antoine Andre, Guillaume, ...)
-- [visual_gyroscope_plugin](https://github.com/isri-aist/visual_gyroscope_plugin) - mc_rtc visual gyroscope plugin (Thomas, Antoine)
-- [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
-- [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
 - [DHPGMVS](https://github.com/isri-aist/DHPGMVS) - Dual-Hemispherical Photometric Gaussian Mixture-based Visual Servoing extending [DHPVS](https://github.com/NathanCrombez/DHPVS) to the Photometric Gaussian Mixture feature thanks to [libPeR_base](https://github.com/PerceptionRobotique/libPeR_base) (Guillaume)
+
+## mc_rtc controllers, plugins and more
+
+### controllers
+- [mc_visual_servoing_screwing](https://github.com/isri-aist/mc_visual_servoing_screwing) - mc_rtc controller for markerless screwing demo with Friends and VS (Thomas, Belinda)
+- [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
+
+### plugins
+- [visual_gyroscope_plugin](https://github.com/isri-aist/visual_gyroscope_plugin) - mc_rtc visual gyroscope plugin (Thomas, Antoine)
+
+### others
+- [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
+- [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
+- [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
 
 ## Calibration
 - [MIXEDVISION](https://github.com/PerceptionRobotique/MIXEDVISION) - multiple cameras simultaneous intrinsic and extrinsic calibration using boards, capable of mixing camera types. Allows dual configurations too with multi-plane calibration targets (Guillaume)
@@ -77,9 +88,5 @@ Perception-Control bridge for tactile sensing and visual servoing:
 -  [ids_driver_lib](https://github.com/isri-aist/ids_driver_lib) - C++ library for IDS camera
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
 -  [Azure Kinect IR Image Streamer](https://github.com/isri-aist/AKIRS) - Preprocess passive mode IR images.
-
-- mc_rtc tools:
-  - [RecordingCamera](https://github.com/isri-aist/RecordingCamera) - Thread-safe camera manager 
-  - [vs_xp_logger](https://github.com/isri-aist/vs_xp_logger) - visual servoing experiment logger 
 
 - [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
