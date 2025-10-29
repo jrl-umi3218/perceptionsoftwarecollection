@@ -47,7 +47,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 ## mc_rtc controllers, plugins and more
 
 ### controllers
-- [mc_visual_servoing_screwing](https://github.com/isri-aist/mc_visual_servoing_screwing) - mc_rtc controller for markerless screwing demo with Friends and VS (Thomas, Belinda)
+- [mc_visual_servoing_screwing](https://github.com/isri-aist/mc_visual_servoing_screwing) - mc_rtc controller for markerless screwing demo with Friends and VS (Thomas, Belinda) with extension [mc-vss-superbuild](https://github.com/isri-aist/mc-vss-superbuild#)
 - [VisualServoing mc_rtc](https://github.com/PerceptionRobotique/VisualServoing_private/tree/MC_RTC_Integration) - visual servoing integration in mc_rtc (Thomas)
 
 ### plugins
