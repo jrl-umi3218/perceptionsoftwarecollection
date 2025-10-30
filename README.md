@@ -90,3 +90,5 @@ Perception-Control bridge for tactile sensing and visual servoing:
 -  [Azure Kinect IR Image Streamer](https://github.com/isri-aist/AKIRS) - Preprocess passive mode IR images.
 
 - [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
+
+- [rgb-d_fusion](https://github.com/isri-aist/rgb-d_fusion) - ROS2 Azure Kinect integration within Unreal Engine for immersive teleoperation (Raphael)
