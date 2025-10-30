@@ -52,6 +52,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 
 ### plugins
 - [visual_gyroscope_plugin](https://github.com/isri-aist/visual_gyroscope_plugin) - mc_rtc visual gyroscope plugin (Thomas, Antoine)
+- [mc_vs_plugin](https://github.com/isri-aist/mc_vs_plugin) - mc_rtc visual servoing plugin (Thomas)
 
 ### others
 - [vs_tasks_generator_controller](https://github.com/isri-aist/vs_tasks_generator_controller) - mc_rtc visual servoing tasks generator (Thomas)
