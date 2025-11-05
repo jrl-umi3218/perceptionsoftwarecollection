@@ -75,6 +75,9 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - VS camera trajectory analysis tool: [evs](https://github.com/NathanCrombez/evs) - evaluation of visual servoing: computes an ideal path from the desired and initial poses and an achieved path
 
 ## Miscellaneous 
+### Image processing
+- [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
+
 - Spherical image transformation tools:
   - [dualfisheye2equi](https://github.com/PerceptionRobotique/dualfisheye2equi) - warps a dualfisheye image to an equirectangular image
   - [equi2omni](https://github.com/PerceptionRobotique/equi2omni) - warps an equirectangular to an omnidirectional image
@@ -85,11 +88,15 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - Masking depth map: [ros_mask_depth_map](https://github.com/isri-aist/ros_mask_depth_map) - use a dynamic mask to mask the depth map of an RGBD camera captured on the fly
 
 - Fiducial markers for panoramic vision: [ArUcOmni](https://github.com/GuicarMIS/ArUcOmni) - detection and pose estimation of ArUco marker observed by a camera obeying the unified central model
--  [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
+
+### Cameras
 -  [ids_driver_lib](https://github.com/isri-aist/ids_driver_lib) - C++ library for IDS camera
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
 -  [Azure Kinect IR Image Streamer](https://github.com/isri-aist/AKIRS) - Preprocess passive mode IR images.
 
-- [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
+### Robots
+- [ur_control](https://github.com/GuicarMIS/ur_control) - ROS2 C++ code to control UR robots in Cartesian velocity
 
+### Others
 - [rgb-d_fusion](https://github.com/isri-aist/rgb-d_fusion) - ROS2 Azure Kinect integration within Unreal Engine for immersive teleoperation (Raphael)
+- [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
