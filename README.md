@@ -76,6 +76,8 @@ Perception-Control bridge for tactile sensing and visual servoing:
 
 ## Miscellaneous 
 ### Image processing
+- [Utils](https://github.com/isri-aist/Utils) - set of tools to: undistort images with various camera/distorsion models (Eva), inverse polynomial distorsion coefficients (Eva), ...
+
 - [differentiableImage](https://github.com/isri-aist/differentiableImage) - tool to compute the minimal Gaussian spread that makes a difference between two images or a single image differentiable (Guillaume, Thomas)
 
 - Spherical image transformation tools:
