@@ -4,6 +4,7 @@ Curation of the software used/developed at JRL for perception
 ## Camera drivers
 - [insta360-docker](https://github.com/isri-aist/insta360-docker) - dockerized install of insta360 cameras for dual-fisheye USB streaming
 - [ros_insta360](https://github.com/AntoineAndre/ros_insta360) - ROS2 driver wrapping insta360 functions and libPeR ones for publishing an equirectangular stream from the dual-fisheye one
+- [ueye_cam](https://github.com/isri-aist/ueye_cam) - fork of (stonier/ueye_cam)[https://github.com/stonier/ueye_cam/tree/ros2] that runs on ROS 2 humble and ships with example config files for our UI3370CP Rev2 (Guillaume, Caillot-san)
 
 ## Human observation
 - [Body tracking split from Azure Kinect camera](https://github.com/GuicarMIS/Azure_Kinect_ROS_Driver/tree/splitBodyTrackingOption) - the body detection and tracking of the Azure Kinect camera split from the capture program to allow using it on a computer different than one to which the Azure Kinect is connected (Guillaume)
