@@ -70,6 +70,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [Engine3D](https://github.com/PerceptionRobotique/Engine3D) - 3D rendering engine optimized for 3D point clouds (MIS lab)
 - [ros_Engine3D](https://github.com/PerceptionRobotique/ros_Engine3D) - A ROS2 node that wraps Engine3D (Guillaume)
 - [ros_freeflying](https://github.com/isri-aist/ros_freeflying) - A ROS2 node that updates the camera pose within a world from a twist vector (Guillaume)
+- [mc_engine3d](https://github.com/isri-aist/mc_engine3d) - mc_rtc plugin that wraps Engine3d (Thomas) 
 
 ## Evaluation Tools
 - [mocap_sync](https://github.com/isri-aist/mocap_sync) - JRL's mocap withi ROS2 (Hugo, Caillot-san, Thomas)
