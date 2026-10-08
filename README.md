@@ -6,6 +6,13 @@ Curation of the software used/developed at JRL for perception
 - [ros_insta360](https://github.com/AntoineAndre/ros_insta360) - ROS2 driver wrapping insta360 functions and libPeR ones for publishing an equirectangular stream from the dual-fisheye one
 - [ueye_cam](https://github.com/isri-aist/ueye_cam) - fork of (stonier/ueye_cam)[https://github.com/stonier/ueye_cam/tree/ros2] that runs on ROS 2 humble and ships with example config files for our UI3370CP Rev2 (Guillaume, Caillot-san)
 
+- [ids_camera_driver](https://github.com/isri-aist/ids_camera_driver) - ROS 2 Humble driver for raw IDS camera acquisition, publishing MONO16 images for the dual-exposure HDR pipeline (Caillot)
+- [yap_flir4ros](https://github.com/isri-aist/yap_flir4ros) - ROS interface for FLIR cameras, used for comparison image acquisition
+
+## HDR and exposure control
+- [DEO-HDR](https://github.com/isri-aist/DEO-HDR) - Discrete Exposure Overlapping with High Dynamic Range: ROS 2 HDR processing and adaptive discrete exposure control for the IDS dual-exposure camera (Caillot)
+- [hdr_processor](https://github.com/isri-aist/hdr_processor) - Earlier ROS 2 Humble HDR processing node for the IDS UI-3370CP-C dual-exposure camera; see DEO-HDR for the newer implementation (Caillot)
+
 ## Human observation
 - [Body tracking split from Azure Kinect camera](https://github.com/GuicarMIS/Azure_Kinect_ROS_Driver/tree/splitBodyTrackingOption) - the body detection and tracking of the Azure Kinect camera split from the capture program to allow using it on a computer different than one to which the Azure Kinect is connected (Guillaume)
 - [Septime](https://github.com/isri-aist/septime) - Multiple Human Mesh Reconstruction from RGB images (either Miroki's head camera or a video)
@@ -24,6 +31,8 @@ Curation of the software used/developed at JRL for perception
 - [OpenVSLAM-omni/open2stella](https://github.com/GuicarMIS/openvslam-omni/tree/open2stella) - former OpenVSLAM extended to Barreto's model for panoramic cameras rebased on StellaVSLAM (Guillaume - private repository)
 - [OpenVSLAM-equiRGBD](https://github.com/GuicarMIS/openvslam-omni/tree/stellaEquiRGBD) - OpenVSLAM-omni extended to Equirectangular RGBD SLAM (Guillaume - private repository)
 
+- [StellaDockerSet](https://github.com/isri-aist/StellaDockerSet) - Dockerfiles and Docker Compose configurations for running Stella VSLAM and its socket viewer, including ROS integration and camera configuration examples (Caillot)
+
 ## Camera tracking
 - [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) - camera 3D rotation estimation (Antoine Andre)
 - [ros_omni_gyro_gpu](https://github.com/isri-aist/ros_omni_gyro_gpu) - gpu acceleration of [VisualGyroscope](https://github.com/PerceptionRobotique/VisualGyroscope) (Thomas)
@@ -34,6 +43,9 @@ Curation of the software used/developed at JRL for perception
 - [Localized Octomap](https://github.com/isri-aist/local_octomap) - accerelated Octomap, with a limited map size. (Tsuru)
 - [CALL-M_core](https://github.com/isri-aist/CALL-M_core) - perception-based navigation stack for the CALL-M mobile manipulator (Ocean, Rafa)
 - [FuseDPT](https://github.com/isri-aist/FuseDPT) - Dense depth prediction from RGB equirectangular image (Matheus, Nevrez)
+
+## Waypoint navigation
+- [robotControlSim](https://github.com/isri-aist/robotControlSim) - ROS 2 toolbox for pose-based waypoint recording, sequential navigation, servo actions, a lightweight simulated robot, and a web display of joystick guidance; used to integrate SLAM localisation with navigation (Caillot)
 
 ## Perceptual features for control 
 Perception-Control bridge for tactile sensing and visual servoing:
@@ -93,6 +105,8 @@ Perception-Control bridge for tactile sensing and visual servoing:
 
 - Fiducial markers for panoramic vision: [ArUcOmni](https://github.com/GuicarMIS/ArUcOmni) - detection and pose estimation of ArUco marker observed by a camera obeying the unified central model
 
+- [ant1](https://github.com/isri-aist/ant1) - Collection of ROS 2 utility nodes for computer vision and image-processing workflows
+
 ### Cameras
 -  [ids_driver_lib](https://github.com/isri-aist/ids_driver_lib) - C++ library for IDS camera
 -  [IDS4HDR](https://github.com/isri-aist/IDS4HDR) - Program to record dual exposures images from the IDS camera in RAW format in FIT images (tested up to 30 FPS)
@@ -104,3 +118,12 @@ Perception-Control bridge for tactile sensing and visual servoing:
 ### Others
 - [rgb-d_fusion](https://github.com/isri-aist/rgb-d_fusion) - ROS2 Azure Kinect integration within Unreal Engine for immersive teleoperation (Raphael)
 - [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
+
+## Additional repositories referenced in the Antnoid handover
+The following links are recorded in the experiment notes. Their contents could not be accessed during this documentation update; repository availability and access permissions need to be confirmed before installation.
+
+- [IDSHDR](https://github.com/isri-aist/IDSHDR) - Historical IDS HDR acquisition project associated with the camera/GPS recording workspace on the Go1 NUC (Caillot)
+- [nmea_gps_node](https://github.com/isri-aist/nmea_gps_node) - GPS NMEA acquisition node used in the camera and RTK GPS recording workflow
+- [bag_to_video](https://github.com/isri-aist/bag_to_video) - Tool for converting ROS bag image data into videos
+- [fits_to_bag](https://github.com/isri-aist/fits_to_bag) - Tool for converting FITS image recordings into ROS bags
+- [ros_biped_synchronizer](https://github.com/isri-aist/ros_biped_synchronizer) - Image-capture synchronisation tool investigated for humanoid experiments using foot-force balance
