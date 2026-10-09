@@ -119,9 +119,7 @@ Perception-Control bridge for tactile sensing and visual servoing:
 - [rgb-d_fusion](https://github.com/isri-aist/rgb-d_fusion) - ROS2 Azure Kinect integration within Unreal Engine for immersive teleoperation (Raphael)
 - [ACFITSIO](https://github.com/isri-aist/ACFITSIO) - Library to use FITS images.
 
-## Additional repositories referenced in the Antnoid handover
-The following links are recorded in the experiment notes. Their contents could not be accessed during this documentation update; repository availability and access permissions need to be confirmed before installation.
-
+Additional repositories:
 - [IDSHDR](https://github.com/isri-aist/IDSHDR) - Historical IDS HDR acquisition project associated with the camera/GPS recording workspace on the Go1 NUC (Caillot)
 - [nmea_gps_node](https://github.com/isri-aist/nmea_gps_node) - GPS NMEA acquisition node used in the camera and RTK GPS recording workflow
 - [bag_to_video](https://github.com/isri-aist/bag_to_video) - Tool for converting ROS bag image data into videos
